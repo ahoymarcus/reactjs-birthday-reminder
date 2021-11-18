@@ -7,6 +7,13 @@ import List from './List';
 function App() {
   const [ people, setPeople ] = useState(data);
 
+
+  const handleOnClick = (e) => {
+    console.log('you clicked me');
+    console.log(typeof data);
+
+    setPeople([]);
+  }
   
   return (
 
@@ -16,7 +23,7 @@ function App() {
 
         <List people={people} />
 
-        <button onClick={() => console.log('you clicked me')}>Clear all</button>
+        <button onClick={handleOnClick}>Clear all</button>
       </section>
     </main>
   );
