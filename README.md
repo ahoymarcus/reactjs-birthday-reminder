@@ -20,9 +20,9 @@ Conjunto de projetos de frontend inspirados na apresentação do professor **Joh
 
 <br />
 
-### Imagem do card com informações pessoais:
+### Imagem do card com Lista de Contatos:
 
-![Imagem do card com informações pessoais](/public/images/informações-pessoais.png)
+![Imagem do card com Lista de Contatos](/public/images/lista-de-contatos.png)
 
 <br />
 
