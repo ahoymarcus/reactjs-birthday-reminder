@@ -38,6 +38,7 @@ function App() {
       setBtnText('Friends List');
     } else {
       setBtnText('Today birthdays');
+      setTitle('Friends List');
       setPeople(data);
       setDate(new Date());
     }
